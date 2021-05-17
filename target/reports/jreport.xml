@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0">
+<testcase classname="Upskill eLearning Sign Up functionality" name="verify the up skill Registration functionality" time="0">
+<system-out><![CDATA[Given User in on Upskill HomePage...........................................skipped
+When User clicks on Sign up!................................................skipped
+Then Registration form should be displayed..................................skipped
+When User enters  "Rashmi", "Pal", "rashmipal1811@gmail.com","Rashmi1813", "Rashmi18111", "Rashmi18111".skipped
+And Clicks on Register......................................................skipped
+Then User should be successfully registered.................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Upskill eLearning Sign Up functionality" name="Verify Login with the registered id" time="0">
+<system-out><![CDATA[Given User in on Upskill HomePage...........................................skipped
+When User enters  "Rashmi18111",  "Rashmi18111".............................skipped
+And Clicks on Login.........................................................skipped
+Then User should be successfully Logged in..................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Upskill eLearning Sign Up functionality" name="Verify the email functionality" time="0">
+<system-out><![CDATA[Given User in on Upskill HomePage...........................................skipped
+When User enters  "Rashmi18111",  "Rashmi18111".............................skipped
+And Clicks on Login.........................................................skipped
+Then User should be successfully Logged in..................................skipped
+When User Clicks on inbox...................................................skipped
+And Clicks on Compose.......................................................skipped
+Then A new window for composing message is dispayed.........................skipped
+When User enter "rashmipal1811@gmail.com", "Welcome to Testing".............skipped
+And Clicks on Send message..................................................skipped
+Then Message should be sent successfully....................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

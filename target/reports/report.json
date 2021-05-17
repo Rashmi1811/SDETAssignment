@@ -1,0 +1,107 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "This step will always execute before my test case",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "line": 28,
+        "name": "Verify Login with the registered id",
+        "description": "",
+        "id": "upskill-elearning-sign-up-functionality;verify-login-with-the-registered-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User in on Upskill HomePage",
+            "match": {
+              "location": "stepDefinition.user_in_on_Upskill_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User enters  \"Rashmi18111\",  \"Rashmi18111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rashmi18111",
+                  "offset": 14
+                },
+                {
+                  "val": "Rashmi18111",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.user_enters(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Clicks on Login",
+            "match": {
+              "location": "stepDefinition.clicks_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User should be successfully Logged in",
+            "match": {
+              "location": "stepDefinition.user_should_be_successfully_Logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Login"
+          },
+          {
+            "line": 19,
+            "name": "@TestCase2"
+          },
+          {
+            "line": 2,
+            "name": "@feature"
+          }
+        ]
+      }
+    ],
+    "name": "Upskill eLearning Sign Up functionality",
+    "description": "",
+    "id": "upskill-elearning-sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "register.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@feature"
+      }
+    ]
+  }
+]

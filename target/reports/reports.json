@@ -1,0 +1,407 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "This step will always execute before my test case",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "line": 17,
+        "name": "verify the up skill Registration functionality",
+        "description": "",
+        "id": "upskill-elearning-sign-up-functionality;verify-the-up-skill-registration-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User in on Upskill HomePage",
+            "match": {
+              "location": "stepDefinition.user_in_on_Upskill_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User clicks on Sign up!",
+            "match": {
+              "location": "stepDefinition.user_clicks_on_Sign_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Registration form should be displayed",
+            "match": {
+              "location": "stepDefinition.registration_form_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User enters  \"Rashmi\", \"Pal\", \"rashmipal1811@gmail.com\",\"Rashmi1813\", \"Rashmi18111\", \"Rashmi18111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rashmi",
+                  "offset": 14
+                },
+                {
+                  "val": "Pal",
+                  "offset": 24
+                },
+                {
+                  "val": "rashmipal1811@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "Rashmi1813",
+                  "offset": 57
+                },
+                {
+                  "val": "Rashmi18111",
+                  "offset": 71
+                },
+                {
+                  "val": "Rashmi18111",
+                  "offset": 86
+                }
+              ],
+              "location": "stepDefinition.user_enters(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Clicks on Register",
+            "match": {
+              "location": "stepDefinition.clicks_on_Register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User should be successfully registered.",
+            "match": {
+              "location": "stepDefinition.user_should_be_successfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Register"
+          },
+          {
+            "line": 2,
+            "name": "@feature"
+          },
+          {
+            "line": 6,
+            "name": "@TestCase1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "This step will always execute before my test case",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "line": 28,
+        "name": "Verify Login with the registered id",
+        "description": "",
+        "id": "upskill-elearning-sign-up-functionality;verify-login-with-the-registered-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User in on Upskill HomePage",
+            "match": {
+              "location": "stepDefinition.user_in_on_Upskill_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User enters  \"Rashmi18111\",  \"Rashmi18111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rashmi18111",
+                  "offset": 14
+                },
+                {
+                  "val": "Rashmi18111",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.user_enters(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Clicks on Login",
+            "match": {
+              "location": "stepDefinition.clicks_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User should be successfully Logged in",
+            "match": {
+              "location": "stepDefinition.user_should_be_successfully_Logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Login"
+          },
+          {
+            "line": 19,
+            "name": "@TestCase2"
+          },
+          {
+            "line": 2,
+            "name": "@feature"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "This step will always execute before my test case",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "line": 46,
+        "name": "Verify the email functionality",
+        "description": "",
+        "id": "upskill-elearning-sign-up-functionality;verify-the-email-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User in on Upskill HomePage",
+            "match": {
+              "location": "stepDefinition.user_in_on_Upskill_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User enters  \"Rashmi18111\",  \"Rashmi18111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rashmi18111",
+                  "offset": 14
+                },
+                {
+                  "val": "Rashmi18111",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinition.user_enters(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Clicks on Login",
+            "match": {
+              "location": "stepDefinition.clicks_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User should be successfully Logged in",
+            "match": {
+              "location": "stepDefinition.user_should_be_successfully_Logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User Clicks on inbox",
+            "match": {
+              "location": "stepDefinition.user_Clicks_on_inbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Clicks on Compose",
+            "match": {
+              "location": "stepDefinition.clicks_on_Compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "A new window for composing message is dispayed",
+            "match": {
+              "location": "stepDefinition.a_new_window_for_composing_message_is_dispayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "User enter \"rashmipal1811@gmail.com\", \"Welcome to Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rashmipal1811@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Welcome to Testing",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinition.user_enter(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "Clicks on Send message",
+            "match": {
+              "location": "stepDefinition.clicks_on_Send_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "Message should be sent successfully",
+            "match": {
+              "location": "stepDefinition.message_should_be_sent_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@SendEmail"
+          },
+          {
+            "line": 30,
+            "name": "@TestCase3"
+          },
+          {
+            "line": 2,
+            "name": "@feature"
+          }
+        ]
+      }
+    ],
+    "name": "Upskill eLearning Sign Up functionality",
+    "description": "",
+    "id": "upskill-elearning-sign-up-functionality",
+    "keyword": "Feature",
+    "uri": "register.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@feature"
+      }
+    ]
+  }
+]
